@@ -8,5 +8,5 @@ sequenceDiagram
     server-->>browser: HTTP Status Code 201 (response: {"message":"note created"})
     deactivate server
 
-    the javascript add the new note onto the var and renders it
+    Note right of browser: the javascript add the new note onto the var and renders it
 ```
