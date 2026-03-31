@@ -1,4 +1,4 @@
-sequenceDiagram
+`mermaid` sequenceDiagram
     participant browser
     participant server
 
@@ -25,4 +25,4 @@ sequenceDiagram
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/data.json
     activate server
     server-->>browser: [{ "content": "Prueba", "date": "2026-03-29T20:24:52.254Z" }, ... ]
-    deactivate server
+    deactivate server`
